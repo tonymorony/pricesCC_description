@@ -149,29 +149,30 @@ pricesrefillfund amount - adding funds to house
 
 pricesgetorderbook - showing balance proportions of house orderbook pairs and also house wallet balance
 
-GUI description:
+## GUI description:
 
-    For simplifying of user interaction with CC, was made simple web GUI. 
+For simplifying of user interaction with CC, was made simple web GUI. 
 
 Portable bundles contains precompiled compatible daemon and GUI executable: https://github.com/tonymorony/komodo-cctools-python/releases/tag/0.0.1 
-Main tab:
+
+# Main tab:
 
 Allows to open new position, user need to input desired bet amount (number), leverage (positive or negative number) and synthetic without “, for example BTC_USD, 1
 
 
-Active positions tab:
+# Active positions tab:
 
 
 
 Showing user active (not closed or rekt executed) positions. Each position in list have radio button, it’s possible to Add funding or Close selected position by relevant buttons. 
 
-Closed position (history) tab:
+# Closed position (history) tab:
 
 Showing bets history (cashouted or rekt-performed bets)
 
 ------------------------------------
 
-CFEKBET1 chain params:
+## CFEKBET1 chain params:
 
 ```
 ./komodod -ac_name=CFEKBET1 -ac_reward=700000000 -ac_supply=77777 -ac_cbopret=7 -ac_cc=313 -ac_ccenable=226,236,237,240 -ac_blocktime=300 -ac_notarypay=250000000 -ac_snapshot=288 -ac_sapling=1 -ac_earlytxidcontract=237 -ac_algo=verushash11 -ac_prices="ETH, LTC, BNB, NEO, LRC, QTUM, OMG, ZRX, STRAT, IOTA, XVG, KMD, EOS, ZEC, DASH, XRP, STORJ, XMR, BAT, BTS, LSK, ADA, WAVES, STEEM, RVN, DCR, XEM, ICX, HOT, ENJ" -ac_stocks="AAPL,ADBE,ADSK,AKAM,AMD,AMZN,ATVI,BB,CDW,CRM,CSCO,CYBR,DBX,EA,FB,GDDY,GOOG,GRMN,GSAT,HPQ,IBM,INFY,INTC,INTU,JNPR,MSFT,MSI,MU,MXL,NATI,NCR,NFLX,NTAP,NVDA,ORCL,PANW,PYPL,QCOM,RHT,S,SHOP,SNAP,SPOT,SYMC,SYNA,T,TRIP,TWTR,TXN,VMW,VOD,VRSN,VZ,WDC,XRX,YELP,YNDX,ZEN,BRK.A" -addnode=159.69.45.70 -earlytxid=86618f7fb240550f8e0cca9cb0c955caa06a54e7f8b22ab37031f6161e830444 -daemon
